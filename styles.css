@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+#story {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#storyInput {
+    width: 75%;
+    padding: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#addSentence {
+    padding: 8px 14px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#addSentence:hover {
+    background-color: #ff3b2f;
+}
+#clearStory {
+    padding: 5px 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  #clearStory:hover{
+    background-color: #ff3b2f;
+  }
+
+
